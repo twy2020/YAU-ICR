@@ -10,7 +10,7 @@
 
 # 三、使用方法
 1. 前往讯飞星火官网申请API以及免费tokens
-2. 在后台获取APISecret和APIKey并填入 `test.py` 的对应变量中
+2. 在后台获取APPID、APISecret和APIKey并填入 `test.py` 的对应变量中
 3. 确定你使用的模型版本（项目使用的是v3.0环境）
     - `Spark_url = "ws://spark-api.xf-yun.com/v3.1/chat"`  # v3.0环境的地址
     - `# Spark_url = "ws://spark-api.xf-yun.com/v1.1/chat"`  # v1.5环境的地址
