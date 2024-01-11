@@ -41,7 +41,8 @@ ____
 - 找到如图信息
   
   ![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Yolo%E5%BC%80%E5%8F%91%E4%B8%93%E5%8C%BA/Win11%2BPycharm%E9%83%A8%E7%BD%B2YOLOv8/pic/Snipaste_2024-01-12_03-32-03.png)
-- 对照下表确定是否满足要求
+- 查看自己的显卡版本号（只有版本号大于396才支持安装）
+- 记住CUDA版本
 ### 2、安装pytorch
 - 进入pytorch官网: [https://pytorch.org/](https://pytorch.org/)
 - 选择 python,pip,你的cuda版本
