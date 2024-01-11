@@ -31,12 +31,16 @@ ____
   
   `conda activate C:/ProgramData/Anaconda3/envs/pytorch`
 - 提示符前面括号变为(pytorch)即成功进入环境
+  
+  ![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Yolo%E5%BC%80%E5%8F%91%E4%B8%93%E5%8C%BA/Win11%2BPycharm%E9%83%A8%E7%BD%B2YOLOv8/pic/Snipaste_2024-01-12_03-34-09.png)
 ## Step2 在环境内安装pytorch(针对Nivdia GPU)
 ### 1、确定显卡和驱动是否满足要求
 - 输入命令查看显卡信息和驱动版本
   
-  `nvidia-msi`
+  `nvidia-smi`
 - 找到如图信息
+  
+  ![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Yolo%E5%BC%80%E5%8F%91%E4%B8%93%E5%8C%BA/Win11%2BPycharm%E9%83%A8%E7%BD%B2YOLOv8/pic/Snipaste_2024-01-12_03-32-03.png)
 - 对照下表确定是否满足要求
 ### 2、安装pytorch
 - 进入pytorch官网: [https://pytorch.org/](https://pytorch.org/)
