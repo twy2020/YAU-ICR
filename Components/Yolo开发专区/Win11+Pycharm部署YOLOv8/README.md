@@ -45,7 +45,9 @@ ____
 - 记住CUDA版本
 ### 2、安装pytorch
 - 进入pytorch官网: [https://pytorch.org/](https://pytorch.org/)
-- 选择 python,pip,你的cuda版本
+- 选择 python,pip,你的cuda版本等
+  
+  ![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Yolo%E5%BC%80%E5%8F%91%E4%B8%93%E5%8C%BA/Win11%2BPycharm%E9%83%A8%E7%BD%B2YOLOv8/pic/Snipaste_2024-01-12_03-43-45.png)
 - 复制生成的指令
 - 回到终端，粘贴指令，回车执行
 - 等待自动安装完成
@@ -81,4 +83,7 @@ ____
 - 终端输入指令测试YOLOv8
   
   `yolo task=detect mode=predict  model=yolov8n.pt conf=0.25 source='ultralytics/assets/bus.jpg'`
+- 检测结果在example文件下生成run文件里生成结果
+  
+ ![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Yolo%E5%BC%80%E5%8F%91%E4%B8%93%E5%8C%BA/Win11%2BPycharm%E9%83%A8%E7%BD%B2YOLOv8/pic/Snipaste_2024-01-12_03-43-45.png)
 ____
