@@ -1,7 +1,8 @@
 文档更新于2024-1-13  
-作者:Teng
+作者:Teng  
+参考文章：[https://blog.csdn.net/liang_baikai/article/details/132082292](https://blog.csdn.net/liang_baikai/article/details/132082292)
 # 一、项目介绍
-YOLOv8在windows11上的部署教程已出，本篇文档在[部署教程](https://github.com/twy2020/YAU-ICR/blob/main/Components/Yolo%E5%BC%80%E5%8F%91%E4%B8%93%E5%8C%BA/Win11%2BPycharm%E9%83%A8%E7%BD%B2YOLOv8/README.md)的基础上进行YOLOv8模型训练的教学
+YOLOv8在windows11上的部署教程已出，本篇文档在[部署教程](https://github.com/twy2020/YAU-ICR/blob/main/Components/Yolo%E5%BC%80%E5%8F%91%E4%B8%93%E5%8C%BA/Win11%2BPycharm%E9%83%A8%E7%BD%B2YOLOv8/README.md)的基础上进行YOLOv8模型训练（GPU）的教学
 ____
 # 二、操作步骤
 ## Step 1: 制作标注数据集
@@ -189,15 +190,28 @@ ____
      model.train(data='./mydata.yaml', epochs=100, imgsz=640)
      ```
    - 先运行 `Process.py` 程序划分数据集，报错请按照提示检查数据集是否有问题，文件是否一一对应
-### 开始训练
+### 2. 开始训练
    - 记得修改 `mydata.yaml` 中的标签参数
    - 准备就绪，运行 `train.py` 开始训练
      
 ## Step 3: 检验效果
    - epochs为迭代次数，当前设置为100，100轮后即完成，最优模型存放在 `datasets/runs/trainx/weight/best.pt` （trainx一般选择最大数值）
    - 再拍摄一组待识别物体的照片用于查看效果
-   - 打开 pycharm 终端，更改并输入以下命令进行测试
+   - 打开 pycharm 终端， 更改路径并输入命令进行测试
      
-     ``
+     `yolo task=detect mode=predict model='best.pt文件路径' source='图片文件夹路径'`
+   - 测试结果保存位置会给出提示
 ____
 # 三、踩坑
+## 1. Labelimg 所需运行环境为 python <= 3.9 ，大于 3.9 会出现闪退，详情请参考[文章](https://blog.csdn.net/qq_42178122/article/details/132460346)
+## 2. “ The “freeze_support()“错误
+   - 这个错误出现在 `train.py` 中没有加
+     
+     ```python
+     if __name__ == '__main__':
+     ```
+     已经解决
+## 3. CUDA Error: out of memory报错
+   - 检查显卡显存和内存的占用情况，重启释放内存一般能够解决
+   - 检查 `pytorch.cuda.is_available()` 是否返回 `True`
+   - 一般来说重启能够解决问题，如果你之前的操作都正确
