@@ -1,4 +1,4 @@
-# 使用YOLOv8在windows11上训练自己的模型（GPU）
+# 使用YOLOv8在windows上训练自己的模型（GPU）
 文档更新于2024-1-13  
 作者:Teng  
 参考文章：[https://blog.csdn.net/liang_baikai/article/details/132082292](https://blog.csdn.net/liang_baikai/article/details/132082292)
