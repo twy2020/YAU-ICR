@@ -18,4 +18,14 @@ ____
 
 
 2. 制作系统卡
-   - 准备一张 32G 以上的 TF 卡，一个 TF 卡读卡器
+   - 准备一张 32GB 以上的 TF 卡，一个 TF 卡读卡器
+     
+![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Raspberry-Pi%E4%B8%93%E5%8C%BA/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%85%A5%E9%97%A8%E7%BB%8F%E9%AA%8C/pic/2b92b660bb10f880483a706c3562591.jpg)  
+
+   - 下载 SD Card Formatter 格式化工具
+     官网:[https://www.sdcardformatter.com/start-download/?id=1](https://www.sdcardformatter.com/start-download/?id=1)
+     解压并安装，打开
+     将 TF 卡插入读卡器，将读卡器插入电脑
+     找到你的卡的盘符，确认卡内没有重要文件后，点击 Format 格式化
+
+![image]()
