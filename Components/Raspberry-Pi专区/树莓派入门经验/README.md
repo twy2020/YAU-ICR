@@ -30,6 +30,6 @@ ____
 
      将 TF 卡插入读卡器，将读卡器插入电脑
 
-     找到你的卡的盘符，确认卡内没有重要文件后，点击 Format 格式化
+     找到你的卡的盘符，确认卡内没有重要文件后，可以更改盘符名称，点击 Format 格式化
 
-![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Raspberry-Pi%E4%B8%93%E5%8C%BA/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%85%A5%E9%97%A8%E7%BB%8F%E9%AA%8C/pic/Snipaste_2024-01-18_12-44-21.png)
+![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Raspberry-Pi%E4%B8%93%E5%8C%BA/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%85%A5%E9%97%A8%E7%BB%8F%E9%AA%8C/pic/Snipaste_2024-01-18_12-49-04.png)
