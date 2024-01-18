@@ -14,4 +14,8 @@ ____
      
 ![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Raspberry-Pi%E4%B8%93%E5%8C%BA/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%85%A5%E9%97%A8%E7%BB%8F%E9%AA%8C/pic/Snipaste_2024-01-18_11-35-29.png)
 
-![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Raspberry-Pi%E4%B8%93%E5%8C%BA/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%85%A5%E9%97%A8%E7%BB%8F%E9%AA%8C/pic/Snipaste_2024-01-18_11-36-28.png)
+![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Raspberry-Pi%E4%B8%93%E5%8C%BA/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%85%A5%E9%97%A8%E7%BB%8F%E9%AA%8C/pic/Snipaste_2024-01-18_11-36-28.png)  
+
+
+2. 制作系统卡
+   - 准备一张 32G 以上的 TF 卡，一个 TF 卡读卡器
