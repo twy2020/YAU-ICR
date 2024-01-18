@@ -42,7 +42,10 @@ ____
      选择其他系统，选择刚刚下载的 ubuntu-22.04-LTS-Desktop 镜像文件，选择储存卡为刚刚格式化的卡，别着急烧录  
      点击右下角的设置按钮，进行基础配置，否则后续无法方便地连接树莓派进行开发  
 
-![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Raspberry-Pi%E4%B8%93%E5%8C%BA/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%85%A5%E9%97%A8%E7%BB%8F%E9%AA%8C/pic/Snipaste_2024-01-18_12-59-03.png) 
+![image](https://github.com/twy2020/YAU-ICR/blob/main/Components/Raspberry-Pi%E4%B8%93%E5%8C%BA/%E6%A0%91%E8%8E%93%E6%B4%BE%E5%85%A5%E9%97%A8%E7%BB%8F%E9%AA%8C/pic/Snipaste_2024-01-18_13-19-15.png)  
+
+  点击 烧录 -> 是，等待写入完成  
+  设置热点，建议使用电脑开启热点，用 clash 的 allow lan 功能可以让树莓派进行科学上网
    
 
 
